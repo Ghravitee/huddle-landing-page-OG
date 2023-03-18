@@ -1,0 +1,244 @@
+.intro-text {
+   &__heading {
+      font-size: 1.7rem;
+      font-family: var(--ff-poppins);
+      margin-bottom: 1rem;
+      color: var(--Very-Dark-Cyan);
+      font-weight: 600;
+
+      @media (min-width: 50em) {
+         font-size: 2rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 2.3rem;
+         width: 85%;
+         margin-bottom: 1.5rem;
+      }
+   }
+
+   &__paragraph {
+      width: 85%;
+      font-family: var(--ff-sans);
+      margin: 0 auto;
+      font-size: .98rem;
+      margin-bottom: 2.5rem;
+      color: var(--Very-Dark-Cyan);
+      font-weight: 400;
+
+      @media (min-width: 50em) {
+         font-size: 1.28rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.169rem;
+         margin: 0;
+         margin-bottom: 3rem;
+         width: 100%;
+      }
+   }
+}
+
+
+.hero-1__text {
+   text-align: center;
+
+   @media (min-width: 62.5em) {
+      text-align: left;
+   }
+
+   &--heading {
+      font-family: var(--ff-poppins);
+      color: var(--Very-Dark-Cyan);
+      margin-bottom: var(--header-spacer);
+      font-size: 1.2rem;
+      font-weight: 600;
+
+      @media (min-width: 50em) {
+         font-size: 1.5rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.8rem;
+      }
+   }
+
+   &--paragraph {
+      font-family: var(--ff-sans);
+      font-size: .9rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 50rem) {
+         font-size: 1.2rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.1rem;
+      }
+
+   }
+}
+
+
+.hero-2__text {
+   text-align: center;
+
+   @media (min-width: 62.5em) {
+      text-align: left;
+   }
+
+   &--heading {
+      font-family: var(--ff-poppins);
+      color: var(--Very-Dark-Cyan);
+      margin-bottom: var(--header-spacer);
+      font-size: 1.2rem;
+      font-weight: 600;
+
+      @media (min-width: 50em) {
+         font-size: 1.5rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.8rem;
+      }
+   }
+
+   &--paragraph {
+      font-family: var(--ff-sans);
+      font-size: .9rem;
+      color: var(--Grayish-Blue);
+
+      @media (min-width: 50rem) {
+         font-size: 1.2rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.15rem;
+      }
+
+   }
+}
+
+.hero-3__text {
+
+   text-align: center;
+
+   @media (min-width: 62.5em) {
+      text-align: left;
+   }
+
+   &--heading {
+      font-family: var(--ff-poppins);
+      color: var(--Very-Dark-Cyan);
+      margin-bottom: var(--header-spacer);
+      font-size: 1.2rem;
+      font-weight: 600;
+
+      @media (min-width: 50em) {
+         font-size: 1.5rem;
+      }
+
+      @media (min-width: 62.5em) {
+         font-size: 1.8rem;
+      }
+   }
+
+   &--paragraph {
+      font-family: var(--ff-sans);
+      font-size: .9rem;
+      color: var(--Grayish-Blue);
+      margin: 0 auto;
+      width: 95%;
+
+      @media (min-width: 50rem) {
+         font-size: 1.2rem;
+      }
+
+
+      @media (min-width: 62.5em) {
+
+         font-size: 1.17rem;
+         width: 100%;
+      }
+   }
+
+}
+
+.cta {
+
+   &__heading {
+      font-family: var(--ff-poppins);
+      font-size: 1.1rem;
+      color: var(--Very-Dark-Cyan);
+      margin-bottom: 2rem;
+
+      @media (min-width: 50rem) {
+         font-size: 1.4rem;
+      }
+
+      @media (min-width: 62.5em) {
+         margin-bottom: 3rem;
+         font-size: 2rem;
+         width: 100%;
+      }
+
+   }
+}
+
+
+.location,
+.phone-number,
+.email-text {
+
+   font-size: 1rem;
+   font-family: var(--ff-sans);
+   color: var(--Very-Pale-Cyan);
+
+
+   @media (min-width: 50em) {
+      font-size: 1.3rem;
+   }
+
+   @media (min-width: 62.5em) {
+      font-size: 1.15rem;
+   }
+}
+
+.about,
+.faq,
+.jobs,
+.blog,
+.contact,
+.career {
+   font-size: 1rem;
+   color: var(--Very-Pale-Cyan);
+   font-family: var(--ff-sans);
+   margin-bottom: 1rem;
+   text-decoration: none;
+
+   @media (min-width: 50em) {
+      font-size: 1.25rem;
+   }
+
+   @media (min-width: 62.5em) {
+      margin-bottom: 2rem;
+      font-size: 1.15rem;
+   }
+
+}
+
+.copyright {
+   color: var(--Very-Pale-Cyan);
+   font-family: var(--ff-poppins);
+   font-size: .7rem;
+   text-align: center;
+
+   @media (min-width: 50em) {
+      font-size: 1.05rem;
+   }
+
+   @media (min-width: 62.5em) {
+      font-size: .8rem;
+      text-align: right;
+   }
+}

@@ -1,0 +1,140 @@
+.container-0 {
+  max-width: 80rem;
+  padding: 2em 1em;
+  margin: 0 auto;
+
+  @media (min-width: 31.25em) {}
+
+  @media (min-width: 62.5em) { 
+    margin: 0 auto 1rem;
+    padding: 3em 2em 2em;
+  }
+
+}
+
+.container-1 {
+  max-width: 80rem;
+  padding: 2em 1.5em;
+  margin: 0 auto;
+
+  @media (min-width: 31.25em) {}
+
+  @media (min-width: 62.5em) { 
+    margin: 0 auto;
+    padding: 2em 1em 5.5em;
+  }
+
+}
+
+.container-2 {
+  max-width: 80rem;
+  padding: 2em 1em;
+  margin: 0 auto;
+
+  @media (min-width: 31.25em) {}
+
+  @media (min-width: 62.5em) {
+    padding: 1em;
+  }
+
+}
+
+.container-3 {
+  max-width: 50rem;
+  padding: 2em 1em;
+  margin: 0 auto;
+
+ 
+
+  @media (min-width: 62.5em) {
+    
+  }
+
+}
+
+.container-4 {
+  padding: 8em 1em 2em;
+  margin: 0 auto;
+
+  @media (min-width: 43.75em) {
+   max-width: 50rem;
+
+  }
+
+  @media (min-width: 62.5em) {
+   max-width: 80rem;
+   padding: 12em 1em 5em;
+  }
+
+}
+
+.btn-0 {
+  padding: .5rem 1.5rem;
+  background: var(--White);
+  color: var(--Very-Dark-Cyan);
+  border-radius: var(--br);
+  line-height: 1;
+  box-shadow: rgba(0, 37, 46, 0.15) 0px 2px 8px;
+
+  @media (min-width: 62.5em) {
+  padding: 1rem 4rem;
+  }
+}
+
+
+
+a.btn-0 {
+  text-decoration: none;
+  font-family: var(--ff-sans);
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+.btn-1 {
+  padding: .8rem 3.5rem;
+  background: var(--Pink);
+  color: var(--White);
+  border-radius: var(--br);
+  line-height: 1;
+
+  @media (min-width: 62.5em) {
+    padding: 1.2rem 4rem;
+    }
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+
+a.btn-1 {
+  text-decoration: none;
+  font-family: var(--ff-sans);
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+.btn-2 {
+  padding: .8rem 3.5rem;
+  background: var(--Pink);
+  color: var(--White);
+  border-radius: var(--br);
+  line-height: 1;
+  box-shadow: rgba(0, 37, 46, 0.15) 0px 2px 8px;
+
+  &:hover {
+    opacity: .7;
+  }
+
+  @media (min-width: 62.5em) {
+    padding: 1.5rem 6rem;
+  }
+}
+
+a.btn-2 {
+  text-decoration: none;
+  font-family: var(--ff-sans);
+  font-weight: 700;
+  font-size: .9rem;
+}
+
